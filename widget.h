@@ -5,6 +5,8 @@
 #include <QPushButton>
 #include <QLayout>
 #include <QHBoxLayout>
+#include <QTextEdit>
+#include <QLineEdit>
 #include <widget.h>
 
 
@@ -22,7 +24,9 @@ public:
     ~Widget();
 
 private:
-    QPushButton* B;
+    QPushButton* ProcessButton;
+    QLineEdit* UserNameField;
+    QLineEdit* UserPasswordField;
 
 };
 #endif // WIDGET_H
