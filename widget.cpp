@@ -10,7 +10,7 @@ Widget::Widget(QWidget *parent)
     hBox ->setSpacing(15);
 
 
-    hBox->setContentsMargins(0, 20, 0, 5);
+    hBox->setContentsMargins(0, 40, 0, 50);
 
     ProcessButton = new QPushButton ("Sign in", this);
 
@@ -28,7 +28,7 @@ Widget::Widget(QWidget *parent)
 
     hBox -> addWidget(UserPasswordField, 0, Qt::AlignHCenter | Qt::AlignTop);
 
-   hBox ->addWidget(ProcessButton, 0, Qt::AlignHCenter | Qt::AlignTop );
+   hBox ->addWidget(ProcessButton, 0, Qt::AlignHCenter | Qt::AlignVCenter );
 
     setLayout(hBox);
 }
